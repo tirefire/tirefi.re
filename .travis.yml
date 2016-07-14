@@ -1,3 +1,5 @@
+sudo: false
+
 language: bash
 script:
 - echo YOLO straight to prod
