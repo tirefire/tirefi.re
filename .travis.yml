@@ -3,6 +3,8 @@ sudo: false
 language: bash
 script:
 - echo YOLO straight to prod
+notifications:
+  slack: tirefire:iqYnIQSGS1wrOqaOpKmd9kSe
 deploy:
   provider: s3
   access_key_id: AKIAJGMDPBO6WAJAZRQA
