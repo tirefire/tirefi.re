@@ -13,4 +13,4 @@ deploy:
   bucket: tirefi.re
   acl: public_read
   on:
-    repo: moutons/tirefi.re
+    repo: tirefire/tirefi.re
