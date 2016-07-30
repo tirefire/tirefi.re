@@ -1,0 +1,36 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <div class="c1"><small>Please use responsibly.</small></div>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <div class="c1"><small>With love, <a href="https://twitter.com/sdmouton/">@sdmouton</a>, <a href="https://twitter.com/jjasghar">@jjasghar</a>, <a href="https://twitter.com/OnlyHaveCans">@OnlyHaveCans</a>, <a href="https://twitter.com/filler">@filler</a>, <a href="https://twitter.com/pczarkowski">@pcarkowski</a>, and friends!</small></div>
+        <p><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Probably not Valid XHTML 1.0 Strict" height="31" width="88" /></a></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
