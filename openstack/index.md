@@ -13,5 +13,5 @@ If you need some continued inspiration, [there's always Cube Drone](http://lolpe
 
 This image is of a release from a while ago, [it's worse now...](https://review.openstack.org/#/c/122962/).
 
-[openstack]: ./openstackstack.png
+[openstack]: ./openstack.png
 [openstack_fire]: ./openstack_fire.png
