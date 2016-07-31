@@ -37,8 +37,38 @@
       <div class="footer-col footer-col-3">
         <div class="c1"><small>With love, <a href="https://twitter.com/sdmouton/">@sdmouton</a>, <a href="https://twitter.com/jjasghar">@jjasghar</a>, <a href="https://twitter.com/OnlyHaveCans">@OnlyHaveCans</a>, <a href="https://twitter.com/filler">@filler</a>, <a href="https://twitter.com/pczarkowski">@pcarkowski</a>, and friends!</small></div>
       </div>
+
     </div>
 
+  </div>
+
+  <div align="center">
+{% if page.webring == true %}
+    {% for my_page in site.pages %}
+      {% if my_page.title and my_page.webring == true %}
+      {% assign webring_urls = webring_urls | append: "," | append: my_page.url %}
+      {% endif %}
+    {% endfor %}
+    {% assign webring_array = webring_urls | split: "," %}
+    {% for p in webring_array %}
+    {% if p == page.url %}
+    {% assign first = 1 %}
+    {% assign last = forloop.length|minus:1 %}
+    {% if forloop.index0 == 1 %}
+    {% assign prev = last %}
+    {% else %}
+    {% assign prev = forloop.index0|minus:1 %}
+    {% endif %}
+    {% if forloop.last %}
+    {% assign next = first %}
+    {% else %}
+    {% assign next = forloop.index0|plus:1 %}
+    {% endif %}
+        <p>tirefi.re webring:
+        <p><a href="{{ webring_array[prev] }}">&lt; prev </a> | <a href="/about"> list </a> | <a href="{{ webring_array[next] }}"> next &gt;</a></p>
+    {% endif %}
+    {% endfor %}
+  {% endif %}
   </div>
 
 </footer>
