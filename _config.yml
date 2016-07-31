@@ -15,17 +15,17 @@ twitter_username: tirefirebot
 github_username:  tirefire
 
 # Build settings
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
 markdown: kramdown
-
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
 exclude:
   - Gemfile
   - Gemfile.lock
   - Rakefile
   - README.md
   - vendor
-
 google_analytics_tracking_id: UA-79918240-1

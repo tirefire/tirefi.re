@@ -8,20 +8,16 @@
 load '_rake-configuration.rb' if File.exist?('_rake-configuration.rb')
 load '_rake_configuration.rb' if File.exist?('_rake_configuration.rb')
 #
-# OK now starting main engines
-#
-# Specify default values for variables NOT set by the user
+puts 'Starting main engines!'
 
 # post_ext ||= '.md'
 # post_dir ||= '_posts/'
 # git_check ||= true
 # git_autopush ||= false
-#
 
 desc 'Test site using HTML::Proofer'
 task :proof_sitedir do
-  system 'bundle exec jekyll build'
-  # system 'bundle exec htmlproofer --allow-hash-href --assume-extension ./_site'
+  jekyll('build')
   HTMLProofer.check_directory(
     './_site/',
     allow_hash_href: true,
@@ -32,9 +28,16 @@ task :proof_sitedir do
       'http://validator.w3.org/check?uri=referer'
     ]
   ).run
+  puts 'YOLO that shit straight to prod, son!'
 end
+
+desc 'Test site'
+task test: [:proof_sitedir] do
+  cleanup
+end
+
 #
-# and the rest
+# and the rest of the tasks
 #
 desc 'Clean up generated site'
 task :clean do
