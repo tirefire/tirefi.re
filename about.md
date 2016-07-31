@@ -10,7 +10,7 @@ Hi, welcome to [tirefi.re](http://tirefi.re). If you want to be involved invite 
 In no particular order, these are our tire fires:
   <ul>
     {% for my_page in site.pages %}
-      {% if my_page.title %}
+      {% if my_page.title and my_page.webring == true %}
       <li>
         <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.url }}</a>
       </li>

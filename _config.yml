@@ -14,6 +14,15 @@ url: "http://tirefi.re" # the base hostname & protocol for your site
 twitter_username: tirefirebot
 github_username:  tirefire
 
+# Front Matter defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      webring: true
+
 # Build settings
 gems:
   - jekyll-sitemap
