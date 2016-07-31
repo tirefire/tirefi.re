@@ -24,6 +24,7 @@ task :proof_sitedir do
     assume_extension: true,
     url_ignore: [
       'http://tirefi.re/about/',
+      'http://tirefi.re/humans/',
       'http://tirefi.re/feed.xml',
       'http://validator.w3.org/check?uri=referer'
     ]

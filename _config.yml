@@ -27,6 +27,7 @@ defaults:
 gems:
   - jekyll-sitemap
   - jekyll-feed
+  - jemoji
 markdown: kramdown
 kramdown:
   input: GFM
