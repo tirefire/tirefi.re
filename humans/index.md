@@ -2,6 +2,7 @@
 layout: page
 title: hugops posse
 webring: false
+permalink: /humans/
 ---
 
 
