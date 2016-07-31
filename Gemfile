@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'html-proofer'
+gem 'jekyll'
+gem 'jekyll-redirect-from'
+gem 'jekyll-sitemap'
+gem 'jekyll-feed'
+gem 'jemoji'
+gem 'kramdown'
+gem 'rake'
+gem 'rubocop'
