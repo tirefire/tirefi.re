@@ -10,4 +10,4 @@ Party on Wayne and be Excellent to Eachother.
 
 ![beavis and butthead playing air guitar][airbnb]
 
-[airbnb]: ./airbnb.jpg
+[airbnb]: ./airbnb.gif
