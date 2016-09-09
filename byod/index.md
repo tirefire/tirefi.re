@@ -1,7 +1,9 @@
 --- 
 layout: page
-title: BYOD Strategy
+title: Corporate BYOD Strategy
 ---
+
+# Corporate BYOD Strategy
 
 ![Bring Your Own Device Strategy][byod]
 
