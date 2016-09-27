@@ -13,4 +13,4 @@ title: Did you know the US has Presidential debates?
 ![Shimmy Shimmy][shimmy-shimmy]
 
 [picked-the-wrong-week]: ./picked-the-wrong-week.jpg
-[shimmmy-shimmy]: https://media.giphy.com/media/3o7TKnxwpUqCkdb5Li/giphy.gif
+[shimmy-shimmy]: https://media.giphy.com/media/3o7TKnxwpUqCkdb5Li/giphy.gif
