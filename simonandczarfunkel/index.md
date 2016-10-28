@@ -17,9 +17,8 @@ title: Simon and Czarfunkel
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/sdmouton">@sdmouton</a> <a href="https://twitter.com/petecheslock">@petecheslock</a> <a href="https://twitter.com/filler">@filler</a> best thing of the week</p>&mdash; Tyler Britten (@vmtyler) <a href="https://twitter.com/vmtyler/status/791996397549740033">October 28, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[@petechesbot gets his revenge](petecheslock)
+[@petechesbot gets his revenge](http://tirefi.re/petecheslock/)
 
 
 ![Our Director of Devops](http://tirefi.re/petecheslock/pete.png)
 
-[petecheslock]: http://tirefi.re/petecheslock/
