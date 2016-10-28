@@ -3,7 +3,7 @@ layout: page
 title: Simon and Czarfunkel
 ---
 
-# the jolliest banana bender
+# the jolliest [banana bender](http://www.australiangeographic.com.au/topics/history-culture/2013/05/slang-what-aussies-call-other-aussies)
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://t.co/LYKxq8Guxn">https://t.co/LYKxq8Guxn</a> literally cannot even.</p>&mdash; Nick Silkey (@filler) <a href="https://twitter.com/filler/status/791768031642791936">October 27, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -21,4 +21,7 @@ title: Simon and Czarfunkel
 
 
 ![Our Director of Devops](http://tirefi.re/petecheslock/pete.png)
+
+The most of thanks to [@notnownikki](https://twitter.com/notnownikki) for the best video filler's cried to this year!
+
 
