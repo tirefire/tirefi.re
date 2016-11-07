@@ -3,6 +3,8 @@ layout: page
 title: ಠ_ಠ Ops Roulette
 ---
 
-# One Night at ChefConf
+# Late Nights at Tech Conferences
 
 <img src="./opsroulette.png" alt="🔥" />
+
+[Source](http://www.commitstrip.com/en/2014/05/16/russian-roulette/)
