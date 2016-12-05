@@ -1,14 +1,19 @@
 sudo: false
-
-language: bash
-script:
-- echo YOLO straight to prod
+language: ruby
+rvm:
+  - "2.1.8"
+notifications:
+  slack:
+    secure: ppR6E8Tzxf+o2Ump0dEE2Xp0GMvDDnq8YN9ll+WCIwGlwVgsvH4jW0vD7to9+tl6Yx5w9cW/YxmF4CDQszUpGH6rAF8CLjXMwD/QgiHjkjkGNPoIU+/sr6oAzvD0iUWOZ8BU7n9FuGI0T/z4MPNH8k16XoxLrYGjAKpKyG0mj502OQTI/BAsAJyXMSeu6wUAyc6iFWdcs36cpOuFT58Dt/3vNrfFqXHZf61mPjKNXzWstIEaglsnVc/t1aOGiN/o2DETm1ysGcVrqIXeSv3wEWIrHUVwoOI3vSe4DvWW93br0aQWDJ2JucMEzvX1K2Jcx1WWMnGiG5tVeQXrWA1tYYXGyfWXYdZrfVJf7WvkLHV4JX2j3AgKAaUMvFA1AZeApM4DPHM+3tGZpZwzHZD992rQhyzjqydFzxuIya6nwwmS/LwH4J4nHvs0OQalC8A6zEX9EMhte/WBgAYr+mWQqamKjdv1JQd8vEQQZweUDc51WBdkodRYjmBcJNak/+5KcSL5ecw+GTqpCtnSEd4s+h3PKFX90AR5Gxeorju3KYAPuH6nqp1S3zdv5QlJQH9VDkUqPeH9zsI8pyqypHgJdO/wNf1HfRvYPvodxrRBrON+1OQkAn3pCjEs7zVRQMTraUQ6w2ptIhAhwAk7w1gIABEbmLoj1s0I/54co328828=
 deploy:
+  local_dir: _site
   provider: s3
+  skip_cleanup: true
   access_key_id: AKIAJGMDPBO6WAJAZRQA
   secret_access_key:
     secure: PhgNSq4p7GSl9tK1pu4REw00gNpPeki7D6MHu9VIqMd1KaJfpFqZ4+OzntAWSWTNBvDSZpzqT+oR4ALAg/31o9dYegnOk7JiobHNlgFWFa8YECcMwje1aTbMaeAQ5ZQBzgikaDXdfzuJPwK8frrcSvvJjldNFpnE52WZ4BcfM4TtsZNYPMYgKKip77g1ba/f/hguXESZp/9bWB0tCQLY7aLpxhx/QQLQYncF5IgtGkEO1UNJYZdPdcHvozyzEw9EhDm/jMGe/2UIkpao/koX0tsfH6JKO+Fz1qeUFtQyRUNEJeoEJwSLPDEBOevRF5QW+WSO/vt7MiMhWB2J12Fif52xLPEtIhgzSOsvgvGX777FF/i87Gv5UshUXv2SlJyCJ1tKmuwkh1vrY7fz9DwW4kyomYwnmU3Ce4m46M151pmf/YEx9n4CeXIdutU26iOHT9XIa2sIxh5iTrZUcPudGuaO7cAfe89874+kyh3prk4CuNFVgD3rB6J4xEv8FV8OdFirBDhXTKUf+SR9az3vpT2Ox0aYIdZU5+UuMOZbHzIjrEIS6Gs5DVBmkvX3ITlkNupcUaY8Y2YmTcC7QVXGZ0oNI1OIPaoDeEF0em0XCn1S42aLnlh74M3K2iwpQBcTY2NBYa04Z9LORAUi/QGYnl0Te1ZbYfq3sZ95Bb14zbQ=
   bucket: tirefi.re
   acl: public_read
   on:
-    repo: moutons/tirefi.re
+    branch: master
+    repo: tirefire/tirefi.re
