@@ -4,6 +4,8 @@ webring: true
 title: Pete ಠ_ಠ Cheslock
 ---
 
+<body background="../year-of-cheslock-on-the-desktop/cheslock-on-the-desktop-original.png">
+
 # Pete Cheslock
 
 ![this is really pete cheslock][pete]
@@ -13,3 +15,5 @@ Pete Cheslock is a thought leader in the monotoring space.  Not only is he one o
 You can follow him on twitter <a href="https://twitter.com/cheeseplus">@cheeseplus</a>.
 
 [pete]: ./pete.png
+
+Get your very own desktop background <a href="https://tirefi.re/year-of-cheslock-on-the-desktop/cheslock-on-the-desktop-original.png">here!</a>
