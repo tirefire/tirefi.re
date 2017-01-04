@@ -3,10 +3,12 @@ layout: page
 title: Postmortems
 ---
 
-# If we all get together, maybe we can work out what kind of fire this was.
+# If we all get together, maybe we can work out what kind of fire Pete caused.
 
 ![former tirefire][postmortem]
 
 [postmortem]: ./postmortems.jpg
 
-Make sure all accusations are done in a blameless manner.
+In this ~~postmortem~~debriefing session<sup>[1](#no-briefs)</sup>, only blameless accusations are acceptable.
+
+<a name="no-briefs">1</a>: https://codeascraft.com/2016/11/17/debriefing-facilitation-guide/
