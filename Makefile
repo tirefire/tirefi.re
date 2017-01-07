@@ -30,7 +30,7 @@ fire-up: preflight ## Run docker-compose up -d
 		sleep 30 && \
 		open "http://0.0.0.0:4000/"
 
-fire-ps: preflight ## Run docker-compose down
+fire-ps: preflight ## Run docker-compose ps
 	@docker-compose ps
 
 fire-down: preflight ## Run docker-compose down
