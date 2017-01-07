@@ -41,3 +41,6 @@ fire-rm: preflight ## Run docker-compose rm --force
 
 fire-logs: preflight ## Run docker-compose logs
 	@docker-compose logs
+
+fire-stop: preflight ## Run docker-compose stop
+	@docker-compose stop
