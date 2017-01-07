@@ -36,5 +36,5 @@ fire-ps: preflight ## Run docker-compose ps
 fire-down: preflight ## Run docker-compose down
 	@docker-compose down
 
-fire-rm: preflight ## Run docker-compose rm
+fire-rm: preflight ## Run docker-compose rm --force
 	@docker-compose rm --force
