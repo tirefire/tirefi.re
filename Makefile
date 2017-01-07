@@ -38,3 +38,6 @@ fire-down: preflight ## Run docker-compose down
 
 fire-rm: preflight ## Run docker-compose rm --force
 	@docker-compose rm --force
+
+fire-logs: preflight ## Run docker-compose logs
+	@docker-compose logs
