@@ -14,4 +14,4 @@ You can follow him on twitter <a href="https://twitter.com/cheeseplus">@cheesepl
 
 [pete]: ./pete.png
 
-Get your very own <a href="https://../year-of-cheslock-on-the-desktop/cheslock-on-the-desktop-original.png">desktop background here!</a>
+Get your very own <a href="../year-of-cheslock-on-the-desktop/cheslock-on-the-desktop-original.png">desktop background here!</a>
