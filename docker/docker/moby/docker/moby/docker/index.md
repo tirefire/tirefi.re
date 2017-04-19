@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ಠ_ಠ in Moby
-docker0: true
+title: ಠ_ಠ in moby
+moby0: true
 webring: false
 ---
 

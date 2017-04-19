@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ಠ_ಠ in docker
+title: ಠ_ಠ in moby
 webring: false
 ---
 
