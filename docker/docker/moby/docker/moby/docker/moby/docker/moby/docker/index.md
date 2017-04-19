@@ -8,6 +8,6 @@ webring: false
 
 ![Go burn in the hell from whence you came][docker]
 
-Docker replaces virtualization...right??
+~~Docker~~ Moby replaces virtualization...right??
 
 [docker]: ./docker_ship_fire.jpg
