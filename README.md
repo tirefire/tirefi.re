@@ -1,5 +1,7 @@
 # tirefi.re
 
+If you'd like to try this locally, before submitting, you should try out `bundle exec jekyll server` - there is also `make fire-up` as well as `make fire-logs` to do the Docker.
+
 * `master` branch [![Build Status](https://api.travis-ci.org/tirefire/tirefi.re.svg?branch=master)](https://travis-ci.org/tirefire/tirefi.re)
 
 Site for http://tirefi.re
