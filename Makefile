@@ -8,10 +8,13 @@ default: help
 
 banner:
 	echo ""
-	echo "    _      _                  ___    _                    "
-	echo "   | |_   |_|   ___    ___   |  _|  |_|        ___    ___ "
-	echo "   |  _|  | |  |  _|  | -_|  |  _|  | |   _   |  _|  | -_|"
-	echo "   |_|    |_|  |_|    |___|  |_|    |_|  |_|  |_|    |___|"
+	echo "       )                     (                           "
+	echo "    ( /(   (    (       (    )\ )   (        (       (   "
+	echo "    )\())  )\   )(     ))\  (()/(   )\       )(     ))\  "
+	echo "   (_))/  ((_) (()\   /((_)  /(_)) ((_)     (()\   /((_) "
+	echo "   | |_    (_)  ((_) (_))   (_) _|  (_)      ((_) (_))   "
+	echo "   |  _|   | | | '_| / -_)   |  _|  | |  _  | '_| / -_)  "
+	echo "    \__|   |_| |_|   \___|   |_|    |_| (_) |_|   \___|  "
 	echo ""
 
 help: banner
@@ -27,11 +30,17 @@ fire-up: preflight ## Run docker-compose up -d
 		sleep 30 && \
 		open "http://0.0.0.0:4000/"
 
-fire-ps: preflight ## Run docker-compose down
+fire-ps: preflight ## Run docker-compose ps
 	@docker-compose ps
 
 fire-down: preflight ## Run docker-compose down
 	@docker-compose down
 
-fire-rm: preflight ## Run docker-compose rm
+fire-rm: preflight ## Run docker-compose rm --force
 	@docker-compose rm --force
+
+fire-logs: preflight ## Run docker-compose logs
+	@docker-compose logs
+
+fire-stop: preflight ## Run docker-compose stop
+	@docker-compose stop

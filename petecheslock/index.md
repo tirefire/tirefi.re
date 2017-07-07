@@ -13,3 +13,5 @@ Pete Cheslock is a thought leader in the monotoring space.  Not only is he one o
 You can follow him on twitter <a href="https://twitter.com/cheeseplus">@cheeseplus</a>.
 
 [pete]: ./pete.png
+
+Get your very own <a href="../year-of-cheslock-on-the-desktop/cheslock-on-the-desktop-original.png">desktop background here!</a>
