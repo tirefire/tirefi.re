@@ -23,7 +23,7 @@ title: Countdown
   			var currentDate = new Date();
 
   			// No idea what the significance of this date is
-  			var futureDate  = new Date(2017, 5, 2, 0, 0, 0);
+  			var futureDate  = new Date(2017, 11, 6, 0, 0, 0);
 
   			// Calculate the difference in seconds between the future and current date
   			var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
