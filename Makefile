@@ -30,6 +30,10 @@ fire-up: preflight ## Run docker-compose up -d
 		sleep 30 && \
 		open "http://0.0.0.0:4000/"
 
+fire-upd: preflight ## Run docker-compose run tirefire depends update
+	@docker-compose run tirefire \
+		depends update
+
 fire-ps: preflight ## Run docker-compose ps
 	@docker-compose ps
 
