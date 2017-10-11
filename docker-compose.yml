@@ -1,6 +1,6 @@
 tirefire:
   image: jekyll/jekyll:pages
-  command: bundle exec jekyll serve
+  command: jekyll serve
   ports:
     - 4000:4000
   volumes:
