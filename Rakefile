@@ -6,7 +6,6 @@
 # post_dir = '_posts/'
 # load from configuration file if present
 load '_rake-configuration.rb' if File.exist?('_rake-configuration.rb')
-load '_rake_configuration.rb' if File.exist?('_rake_configuration.rb')
 #
 puts 'Starting main engines!'
 
@@ -23,7 +22,8 @@ task :proof_sitedir do
     allow_hash_href: true,
     assume_extension: true,
     url_ignore: [
-      'http://validator.w3.org/check?uri=referer'
+      'http://validator.w3.org/check?uri=referer',
+      'https://blog.jessfraz.com/post/spontaneous-combustion'
     ]
   ).run
   puts 'YOLO that shit straight to prod, son!'
@@ -121,7 +121,7 @@ end
 
 # launch jekyll
 def jekyll(directives = '')
-  system 'bundle exec jekyll ' + directives
+  system 'jekyll ' + directives
 end
 
 # check if there is another rake task running (in addition to this one!)
