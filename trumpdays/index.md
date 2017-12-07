@@ -14,24 +14,16 @@ title: Countdown to the history
   	<div class="clock" style="margin:2em;"></div>
 
   	<script type="text/javascript">
-  		var clock;
+		$(document).ready(function(){
+			var date  = new Date(2016, 12, 20);
+			var now   = new Date();
+			var diff  = now.getTime()/1000 - date.getTime()/1000;
 
-  		$(document).ready(function() {
-
-  			// Grab the current date
-  			var currentDate = new Date();
-
-  			// No idea what the significance of this date is
-  			var pastDate  = new Date(2017, 1, 20, 0, 0, 0);
-
-  			// Calculate the difference in seconds between the future and current date
-  			var diff = currentDate.getTime() / 1000 - pastDate.getTime() / 1000;
-
-  			// Instantiate a countdown FlipClock
-  			clock = $('.clock').FlipClock(diff, {
-  				clockFace: 'DailyCounter',
-a  			});
-  		});
+			clock = $('.clock').FlipClock(diff, {
+				clockFace: 'DailyCounter',
+				countdown: false
+				});
+		});
   	</script>
   </body>
 </html>
