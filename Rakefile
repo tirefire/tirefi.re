@@ -23,7 +23,8 @@ task :proof_sitedir do
     allow_hash_href: true,
     assume_extension: true,
     url_ignore: [
-      'http://validator.w3.org/check?uri=referer'
+      'http://validator.w3.org/check?uri=referer',
+      'https://blog.jessfraz.com/post/spontaneous-combustion/'
     ]
   ).run
   puts 'YOLO that shit straight to prod, son!'
