@@ -13,7 +13,7 @@ If you need some continued inspiration, [there's always Cube Drone](http://lolpe
 
 This image is of a release from a while ago, [it's worse now...](https://review.openstack.org/#/c/122962/).
 
-Thanks for the funny pictures, [@classam](https://twitter.com/classam)
+Thanks for the funny pictures, [@classam](https://twitter.com/cube_drone)
 
 [openstack]: ./openstack.png
 [openstack_fire]: ./openstack_fire.png
