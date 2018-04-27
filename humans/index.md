@@ -28,7 +28,7 @@ permalink: /humans/
 
   :cloud: :fire:
 
-  [@classam](https://twitter.com/classam) for the picture funnies
+  [@cube_drone](https://twitter.com/cube_drone) for the picture funnies
 
   [@amye](https://twitter.com/amye) for #camptirefire
 
