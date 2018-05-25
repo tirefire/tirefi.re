@@ -1,0 +1,6 @@
+---
+layout: page
+title: Well, Actually...
+---
+
+# Well, Actually, I'm not a Racist, I loved Pulp Fiction and Samuel L Jackson is my favorite character in it. I used to call myself a feminist, but then the feminazis came along and...
