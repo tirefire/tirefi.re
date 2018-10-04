@@ -35,6 +35,10 @@
     <meta http-equiv="Content-Type" content="text/html" />
     <meta http-equiv="refresh" content="4;URL='https://news.ycombinator.com/news'" />
   {% endif %}
+  {% if page.mansplaining %}
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta http-equiv="refresh" content="3;URL='../wellactually'" />
+  {% endif %}
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
