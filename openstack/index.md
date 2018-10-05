@@ -9,7 +9,7 @@ title: ಠ_ಠ in OpenStack
 
 ![Don't worry in less then 6 months we'll change the underlying networking again.][openstack_fire]
 
-If you need some continued inspiration, [there's always Cube Drone](http://lolpenstack.org).
+If you need some continued inspiration, [there's always Cube Drone](./cube-drone-openstack.gif).
 
 This image is of a release from a while ago, [it's worse now...](https://review.openstack.org/#/c/122962/).
 
