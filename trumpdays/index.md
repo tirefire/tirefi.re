@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How long has it been for this maddess?
+title: How long has it been for this madness?
 ---
 <html>
   <head>
@@ -14,16 +14,25 @@ title: How long has it been for this maddess?
   	<div class="clock" style="margin:2em;"></div>
 
   	<script type="text/javascript">
-		$(document).ready(function(){
-			var date  = new Date(2016, 12, 20);
-			var now   = new Date();
-			var diff  = now.getTime()/1000 - date.getTime()/1000;
+  		var clock;
 
-			clock = $('.clock').FlipClock(diff, {
-				clockFace: 'DailyCounter',
-				countdown: false
-				});
-		});
+  		$(document).ready(function() {
+
+  			// Grab the current date
+  			var currentDate = new Date();
+
+  			// No idea what the significance of this date is
+  			var futureDate  = new Date(2021, 1, 20, 0, 0, 0);
+
+  			// Calculate the difference in seconds between the future and current date
+  			var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+  			// Instantiate a countdown FlipClock
+  			clock = $('.clock').FlipClock(diff, {
+  				clockFace: 'DailyCounter',
+  				countdown: true
+  			});
+  		});
   	</script>
   </body>
 </html>
