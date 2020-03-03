@@ -31,6 +31,10 @@
     <meta http-equiv="Content-Type" content="text/html" />
     <meta http-equiv="refresh" content="1;URL='./docker'" />
   {% endif %}
+  {% if page.refresh %}
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta http-equiv="refresh" content="1;URL='{{ page.refresh }}'" />
+  {% endif %}
   {% if page.hackernews %}
     <meta http-equiv="Content-Type" content="text/html" />
     <meta http-equiv="refresh" content="4;URL='https://news.ycombinator.com/news'" />
