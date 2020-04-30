@@ -4,7 +4,7 @@ title: Copyleft License
 ---
 This is Industrial Waste.
 
-You can have it, but are responsible for any problems it may cause.
+You can have it, but YOU are responsible for any problems it may cause.
 
 Please don't leave it in a pond, the koi deserve better.
 
