@@ -15,5 +15,5 @@ deploy:
   bucket: tirefi.re
   acl: public_read
   on:
-    branch: master
+    branch: testing123
     repo: tirefire/tirefi.re
