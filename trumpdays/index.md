@@ -6,7 +6,7 @@ title: How long has it been for this madness?
   <head>
   	<link rel="stylesheet" href="flipclock.css">
 
-  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
   	<script src="flipclock.js"></script>
   </head>

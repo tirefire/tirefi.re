@@ -10,7 +10,7 @@ title: tirefi.re
 email: tirefire@tirefi.re
 description: > # Tires are not prone to self-ignition as a tire must be heated to at least 400 °C (750 °F) for a period of several minutes prior to ignition.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://tirefi.re" # the base hostname & protocol for your site
+url: "https://tirefi.re" # the base hostname & protocol for your site
 twitter_username: tirefirebot
 github_username:  tirefire
 
