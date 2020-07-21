@@ -29,10 +29,6 @@ task :proof_sitedir do
       'https://blog.jessfraz.com/post/spontaneous-combustion/',
       'https://lmgtfy.com/?q=Checking+the+proxy%2C+firewall%2C+and+DNS+configuration',
       'https://lmgtfy.com/?q=Running+Network+Diagnostics'
-      'http://localhost:4000/feed.xml',
-      'http://validator.w3.org/check?uri=referer',
-      'https://validator.w3.org/check?uri=referer',
-      'https://blog.jessfraz.com/post/spontaneous-combustion/'
     ]
   ).run
   puts 'YOLO that shit straight to prod, fam!'
