@@ -3,7 +3,7 @@ layout: page
 title: Hello Czarkness My Old Friend.
 ---
 
-# the jolliest [banana bender](http://www.australiangeographic.com.au/topics/history-culture/2013/05/slang-what-aussies-call-other-aussies)
+# the jolliest [banana bender](https://www.australiangeographic.com.au/topics/history-culture/2013/05/slang-what-aussies-call-other-aussies)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_FE6a9H7MzQ" frameborder="0" allowfullscreen></iframe>
 
@@ -19,9 +19,9 @@ title: Hello Czarkness My Old Friend.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/sdmouton">@sdmouton</a> <a href="https://twitter.com/petecheslock">@petecheslock</a> <a href="https://twitter.com/filler">@filler</a> best thing of the week</p>&mdash; Tyler Britten (@vmtyler) <a href="https://twitter.com/vmtyler/">October 28, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[@petechesbot gets his revenge](http://tirefi.re/petecheslock/)
+[@petechesbot gets his revenge](https://tirefi.re/petecheslock/)
 
 
-![Our Director of Devops](http://tirefi.re/petecheslock/pete.png)
+![Our Director of Devops](https://tirefi.re/petecheslock/pete.png)
 
 The most of thanks to [@notnownikki](https://twitter.com/notnownikki) for the best video filler's cried to this year!
