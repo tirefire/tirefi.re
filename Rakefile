@@ -28,7 +28,9 @@ task :proof_sitedir do
       'https://validator.w3.org/check?uri=referer',
       'https://blog.jessfraz.com/post/spontaneous-combustion/',
       'https://lmgtfy.com/?q=Checking+the+proxy%2C+firewall%2C+and+DNS+configuration',
-      'https://lmgtfy.com/?q=Running+Network+Diagnostics'
+      'https://lmgtfy.com/?q=Running+Network+Diagnostics',
+      'https://t.co/Gk4MxPlhjb', # this will be fixed after publishing
+      'https://t.co/Qg1iGzrZyz' # linkedin does not like htmlproofer
     ]
   ).run
   puts 'YOLO that shit straight to prod, fam!'
