@@ -23,7 +23,9 @@ task :proof_sitedir do
     allow_hash_href: true,
     assume_extension: true,
     url_ignore: [
+      'http://localhost:4000/feed.xml',
       'http://validator.w3.org/check?uri=referer',
+      'https://validator.w3.org/check?uri=referer',
       'https://blog.jessfraz.com/post/spontaneous-combustion/'
     ]
   ).run
