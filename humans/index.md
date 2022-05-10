@@ -32,4 +32,6 @@ permalink: /humans/
 
   [@amye](https://twitter.com/amye) for #camptirefire
 
+  [@hagenburger](https://twitter.com/hagenburger) for the CSS used to add the ukraine flags
+
   dat [@petecheslock](https://twitter.com/petecheslock) tho.

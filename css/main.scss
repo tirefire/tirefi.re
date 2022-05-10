@@ -50,7 +50,8 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
-
+// I grabbed from here to ENDFLAGS from https://codepen.io/hagenburger/pen/ExwbpX
+// thanks Nico! github.com/hagenburger
 @mixin flags($width: 3px) {
     $flags: (de: (background: #DB0004, top: #000000, bottom: #FFD009),
             fr: (background: #FFFFFF, left: #041D92, right: #EA2C3F),
@@ -121,6 +122,4 @@ $on-laptop:        800px;
     @include flags(30px);
 }
 
-body {
-    background: #F0F0F0;
-}
+// ENDFLAGS
