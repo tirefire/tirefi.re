@@ -3,10 +3,8 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -51,3 +49,78 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+
+@mixin flags($width: 3px) {
+    $flags: (de: (background: #DB0004, top: #000000, bottom: #FFD009),
+            fr: (background: #FFFFFF, left: #041D92, right: #EA2C3F),
+            es: (background: #FEC608, top: #C4001F, bottom: #C20020, width: 0.25),
+            it: (background: #FFFFFF, left: #139149, right: #CC2D3B),
+            am: (background: #06379E, top: #D20A1E, bottom: #EBA327),
+            be: (background: #FADF52, left: #000000, right: #EB2D3F),
+            bo: (background: #F9E232, top: #D32E28, bottom: #0E7937),
+            bg: (background: #15966F, top: #FFFFFF, bottom: #D42920),
+            ci: (background: #FFFFFF, left: #F68022, right: #169E62),
+            cz: (background: #FFFFFF, top: #FFFFFF, bottom: #D51924, left: #15467D, width: 0.5),
+            ee: (background: #000000, top: #4C93D7, bottom: #FFFFFF),
+            ga: (background: #FCD036, top: #169E62, bottom: #3D77C2),
+            gn: (background: #FCD036, left: #C9172B, right: #149462),
+            id: (background: #FFFFFF, top: #CC172C, width: 0.5),
+            ie: (background: #FFFFFF, left: #159B4C, right: #FE7A23),
+            ye: (background: #FFFFFF, top: #CC172C, bottom: #000000),
+            lv: (background: #FFFFFF, top: #9D323B, bottom: #9D323B, width: 0.4),
+            tl: (background: #0B6A45, top: #FCB931, bottom: #C02A32),
+            lu: (background: #FFFFFF, top: #EB2D3F, bottom: #1AA3DC),
+            ml: (background: #FBD035, left: #22AD3F, right: #CC162C),
+            mc: (background: #FFFFFF, top: #CC172C, width: 0.5),
+            nl: (background: #FFFFFF, top: #AC1F2C, bottom: #244889),
+            ng: (background: #FFFFFF, left: #118653, right: #118653),
+            at: (background: #FFFFFF, top: #EB2D3F, bottom: #EB2D3F),
+            pe: (background: #FFFFFF, left: #D7172B, right: #D7172B),
+            pl: (background: #FFFFFF, bottom: #DA1B40, width: 0.5),
+            ro: (background: #FCD036, left: #042E7D, right: #CC172C),
+            ru: (background: #073DA4, top: #FFFFFF, bottom: #D32E28),
+            sl: (background: #FFFFFF, top: #2AB441, bottom: #1175C4),
+            td: (background: #FDCA2E, left: #03265E, right: #C41334),
+            ua: (background: #FFD430, top: #0D5EB9, width: 0.5),
+            hu: (background: #FFFFFF, top: #CB2D42, bottom: #456F4E));
+
+    $height: floor($width / 3 * 2);
+
+    &--item {
+        box-sizing: border-box;
+        display: inline-block;
+        height: $height;
+        margin-bottom: 0.3em;
+        vertical-align: bottom;
+        width: $width;
+
+        @each $country,
+        $options in $flags {
+            &.-#{$country} {
+                background: map-get($options, background);
+                $border-width: 0.333;
+
+                @if map-has-key($options, width) {
+                    $border-width: map-get($options, width);
+                }
+
+                @each $position,
+                $size in (top: $height, right: $width, bottom: $height, left: $width) {
+                    @if map-has-key($options, $position) {
+                        border-#{$position}: ceil($border-width * $size) map-get($options, $position) solid;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.flags {
+    text-align: center;
+    @include flags(30px);
+}
+
+body {
+    background: #F0F0F0;
+}
