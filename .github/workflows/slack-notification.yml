@@ -1,0 +1,16 @@
+on: push
+name: Slack Notification Demo
+jobs:
+  slackNotification:
+    name: Slack Notification Demo
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Slack Notification Demo
+        uses: bryannice/gitactions-slack-notification@2.0.0
+        env:
+          SLACK_CHANNEL: 'build-info'
+          SLACK_INCOMING_WEBHOOK: ${{ secrets.SLACK_INCOMING_WEBHOOK }}
+          SLACK_MESSAGE: 'Demo''ing the Slack Notification'
+          SLACK_TITLE: 'tirefi.re GitHub Actions'
+          SLACK_USERNAME: 'tirefire-githubactions'
